@@ -4,6 +4,7 @@ package first;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 /*수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다.
 
 마라톤에 참여한 선수들의 이름이 담긴 배열 participant와 완주한 선수들의 이름이 담긴 배열 completion이 주어질 때, 
@@ -20,6 +21,8 @@ public class CodingTest_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		List<String> participant = new ArrayList<String>();
 
 		participant.add("1");
@@ -33,6 +36,18 @@ public class CodingTest_1 {
 		for (int i = 0; i < participant.size(); i++) {
 			System.out.println(participant.get(i));
 		}
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int age, a;//나이, 학번
+		String b, c, d;// 이름, 학과, 주소
+		System.out.print("나이를 입력하세요:");
+		age = scan.nextInt();
+		System.out.print("이름을 입력하세요:");
+		b = scan.nextLine();
+		System.out.print("나이는"+age+" 입니다." );
+		System.out.print("이름은"+b+"입니다." );
+
 		
 		
 		/* def solution(participant, completion):
