@@ -19,6 +19,8 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 
 public class CodingTest_1 {
 
+	private static Object function;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -47,8 +49,9 @@ public class CodingTest_1 {
 		b = scan.nextLine();
 		System.out.print("나이는"+age+" 입니다." );
 		System.out.print("이름은"+b+"입니다." );
-
 		
+		
+	   
 		
 		/* def solution(participant, completion):
 
